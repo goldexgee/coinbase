@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     body{
+        background-color: rgb(0, 0, 0);
+    }
+    .container{
+        max-width: 400px;
+        margin: auto;
+        display: flex;
+        inline-size: auto;
+        justify-content: center;
+        align-items: left;
+        background-color: rgb(255, 255, 255);
+        height: 670px;
+        border: 0px;
+        
+    }
+    .whitecontainer{
+        width: 400px;
+        background-color: rgb(0, 89, 255);
+        height: 300px;
+        border: 0px;
+    }
+    .formcontainer{
+        background-color: rgba(1, 25, 48, 0.493);
+        width: 320px;
+        height: 500px;
+        margin-top: 80px;
+        margin-left: 40px;
+        box-shadow: 0 0 10px rgba(0, 174, 255, 0.671);
+        border-radius: 20px;
+    }
+    .login{
+        text-align: center;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: larger;
+        margin: 50px;
+    }
+    .email, .password{
+        background-color: white;
+        color: black;
+        border: none;
+        width: 250px;
+        height: 30px;
+        box-shadow: 0 0 10px rgba(0, 174, 255, 0.671);
+    }
+    .loginbtn{
+        background-color: rgb(43, 18, 187);
+            border:none;
+            width: 100px;
+            height: 29px;
+            color: beige;
+            border-radius: 50px;
+            box-shadow: 0 0 10px rgba(0, 174, 255, 0.671);
+    }
+    .loginbtn:hover{
+        background-color: rgb(255, 255, 255);
+    }
+    .loginbtn:active{
+        background-color: rgb(0, 89, 255) ;
+    }
+</style>
+<body>
+
+    <div class="container">
+        
+        
+        
+        <div class="whitecontainer">
+           <form class="formcontainer">
+            <span class="login">
+                <h1>SIGN IN</h1>
+                </span>
+                <center>
+                    <input class="email" type="text" placeholder="username"><p>
+                    <input class="password" type="email" placeholder="email"><P>
+                        <input class="password" type="password" placeholder="password"><P>
+                            <input class="password" type="password" placeholder="confirm password"><P>
+                    <button class="loginbtn">SIGN IN</button><p><a href="loginpage.html">
+                     already have an account? click here
+                 </a>
+                    </p>
+                 </center>
+           </form>
+        </div>
+</body>
+</html>
